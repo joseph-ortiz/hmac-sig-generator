@@ -11,7 +11,7 @@ This java class will generate a HMAC256 encoded string.
 2. Build the docker image
 
 `
-$ docker build -t sig-gen 
+$ docker build -t sig-gen .
 `
 
 NOTE: if you make changes to the java file, you will need to rebuild the image by executing step 2.
