@@ -10,14 +10,16 @@ This java class will generate a HMAC256 encoded string.
 
 2. Build the docker image
 
-`bash
+`
 $ docker build -t sig-gen 
 `
-NOTE: if you make changes to the javac file, you will need to rebuild the image by executing step 2.
+
+NOTE: if you make changes to the java file, you will need to rebuild the image by executing step 2.
 
 3. Run the docker image.
 
-`bash
+`
 $ docker run sig-gen 
 `
+
 4. The hmac256 encoded string and the request body before encryption will be printed to the console.
