@@ -1,4 +1,4 @@
-# Signatre Generator
+# Signature Generator
 
 ## About
 This java class will generate a HMAC256 encoded string.
